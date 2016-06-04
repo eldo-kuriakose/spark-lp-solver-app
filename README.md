@@ -8,7 +8,7 @@
     Demand        | 7500           | 15000            |                   |
     
 
-Expression for the above code is 
+Expression for the above problem is 
 
 
 * X1  +   0*X2 +     X3 + 0*X4 +(-1)S1 +  0*S2 +  0*S3 + 0*S4 = 7500 
