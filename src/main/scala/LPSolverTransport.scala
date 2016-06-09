@@ -65,7 +65,7 @@ object LPSolverTransport {
     val c = sc.parallelize(Array(1.60,1.60,1.60,1.60,1.60, 1.55, 1.55, 1.55, 1.55, 1.55, 1.90, 1.90, 1.90, 1.90, 1.90, 1.80, 1.80, 1.80, 1.80, 1.80, 1.90, 1.90, 1.90, 1.90, 1.90, 0,0,0,0,0), 2).glom.map(new DenseVector(_))
 
     // Smoothing parameter
-    val mu = 1e-4
+    val mu = 1e-3
     
    // return A tuple containing two elements. The first element is a vector containing the optimized
    // 'x' value. The second element contains the objective function history.
